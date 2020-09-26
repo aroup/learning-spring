@@ -1,0 +1,5 @@
+com.turing.springmvc.CustomerController=org.springframework.stereotype.Component
+com.turing.springmvc.HelloWorldController=org.springframework.stereotype.Component
+com.turing.springmvc.HomeController=org.springframework.stereotype.Component
+com.turing.springmvc.SillyController=org.springframework.stereotype.Component
+com.turing.springmvc.StudentController=org.springframework.stereotype.Component

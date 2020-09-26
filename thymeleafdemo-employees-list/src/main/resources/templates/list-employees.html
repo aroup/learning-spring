@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.com">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>List of employees</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Employee Directory</h3>
+        <hr>
+        <table class="table table-bordered table-striped" border="1">
+            <thead class="thead-dark">
+            <tr>
+                <th> First Name </th>
+                <th> Last Name </th>
+                <th> Email </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="tempEmployee : ${employees}">
+                <td th:text="${tempEmployee.firstName}"></td>
+                <td th:text="${tempEmployee.lastName}"></td>
+                <td th:text="${tempEmployee.email}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

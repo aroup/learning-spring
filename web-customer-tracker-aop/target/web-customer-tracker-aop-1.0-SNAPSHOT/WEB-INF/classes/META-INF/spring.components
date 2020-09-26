@@ -1,0 +1,5 @@
+com.turing.springdemo.aspect.CRMLoggingAspect=org.springframework.stereotype.Component
+com.turing.springdemo.controller.CustomController=org.springframework.stereotype.Component
+com.turing.springdemo.dao.CustomerDAOImpl=org.springframework.stereotype.Component
+com.turing.springdemo.entity.Customer=javax.persistence.Entity,javax.persistence.Table
+com.turing.springdemo.service.CustomerServiceImpl=org.springframework.stereotype.Component
